@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Yort.DeadManSwitch</id>
+    <version>1.0.0</version>
+    <title>Yort.DeadManSwitch</title>
+    <authors>Yortw</authors>
+    <owners>Yortw</owners>
+    <licenseUrl>https://github.com/Yortw/Yort.DeadManSwitch/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Yortw/Yort.DeadManSwitch</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Yortw/Yort.DeadManSwitch/master/Icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A common dead man switch pattern implementation for handling cases when an event fails to happen for a certain period of time.</description>
+    <tags>deadmanswitch deadman switch netstandard20 net40 .net4</tags>
+    <dependencies>
+      <group>
+        <dependency id="Ladon.Net" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Yort.Trashy" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Yort.DeadManSwitch.Net40\bin\Release\Yort.DeadManSwitch*.dll" target="lib\net40" />
+    <file src="Yort.DeadManSwitch.Net40\bin\Release\Yort.DeadManSwitch*.xml" target="lib\net40" />
+    <file src="Yort.DeadManSwitch.Net40\bin\Release\Yort.DeadManSwitch*.pdb" target="lib\net40" />
+    <file src="Yort.DeadManSwitch.NetStandard20\bin\Release\netstandard2.0\Yort.DeadManSwitch*.dll" target="lib\netstandard20" />
+    <file src="Yort.DeadManSwitch.NetStandard20\bin\Release\netstandard2.0\Yort.DeadManSwitch*.xml" target="lib\netstandard20" />
+    <file src="Yort.DeadManSwitch.NetStandard20\bin\Release\netstandard2.0\Yort.DeadManSwitch*.pdb" target="lib\netstandard20" />
+    <file src="**\*.cs" target="src" />
+  </files>
+</package>
