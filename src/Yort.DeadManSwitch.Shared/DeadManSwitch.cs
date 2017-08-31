@@ -1,6 +1,7 @@
 ﻿using System;
 using Ladon;
 using Yort.Trashy.Extensions;
+using Yort.Trashy;
 
 namespace Yort.Dms
 {
@@ -155,7 +156,7 @@ namespace Yort.Dms
 		{
 			if (_SwitchTimer != null)
 			{
-				_SwitchTimer.TryDispose(TryDisposeOptions.SuppressExceptions);
+				_SwitchTimer.TryDispose(DisposeOptions.SuppressExceptions);
 				_SwitchTimer = null;
 			}
 

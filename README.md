@@ -12,7 +12,7 @@ Any time you want to take some action because something else hasn't happened for
 
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Yortw/Yort.DeadManSwitch/blob/master/LICENSE) 
 
-[![Build status](https://ci.appveyor.com/api/projects/status/waxmch4c6sm96vaa?svg=true)](https://ci.appveyor.com/project/Yortw/yort-deadmanswitch)
+[![Build status](https://ci.appveyor.com/api/projects/status/orbrd1dkd2s40dm1?svg=true)](https://ci.appveyor.com/project/Yortw/yort-deadmanswitch)
 
 ## Supported Platforms
 Currently;
