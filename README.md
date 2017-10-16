@@ -38,7 +38,7 @@ Create a switch passing the action to call when the switch activates, the delay 
 
     //This switch activates after 5 seconds on inactivity, and automatically
     //resets itself after activation.
-    var dms = = new DeadManSwitch(5000, () => Console.WriteLine("Switch activated!")), (reason) => Console.WriteLine("Reset because " + reason.ToString()), true);
+    var dms = new DeadManSwitch(5000, () => Console.WriteLine("Switch activated!")), (reason) => Console.WriteLine("Reset because " + reason.ToString()), true);
 
     //Somewhere else in the code, in a code path that should execute regularly within 5 seconds
     dms.Reset();
