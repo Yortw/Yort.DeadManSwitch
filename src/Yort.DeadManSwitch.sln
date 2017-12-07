@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yort.DeadManSwitch.NetStandard20", "Yort.DeadManSwitch.NetStandard20\Yort.DeadManSwitch.NetStandard20.csproj", "{F774AE09-F1AF-49DE-B4FA-F71EDE5B0F28}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Yort.DeadManSwitch.Shared.Tests", "Yort.DeadManSwitch.Shared.Tests\Yort.DeadManSwitch.Shared.Tests.shproj", "{9B50C5EA-B07E-4DFA-BC89-C6B10AD86F5E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yort.DeadManSwitch.Demo", "Yort.DeadManSwitch.Demo\Yort.DeadManSwitch.Demo.csproj", "{F3CC56E3-29C7-42C7-8601-84E643EC84D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yort.DeadManSwitch.NetStandard12", "Yort.DeadManSwitch.NetStandard12\Yort.DeadManSwitch.NetStandard12.csproj", "{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -50,6 +52,10 @@ Global
 		{F3CC56E3-29C7-42C7-8601-84E643EC84D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3CC56E3-29C7-42C7-8601-84E643EC84D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3CC56E3-29C7-42C7-8601-84E643EC84D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

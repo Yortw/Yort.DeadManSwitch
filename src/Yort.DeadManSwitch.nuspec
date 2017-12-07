@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Yort.DeadManSwitch</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Yort.DeadManSwitch</title>
     <authors>Yortw</authors>
     <owners>Yortw</owners>
@@ -23,6 +23,11 @@
     <file src="Yort.DeadManSwitch.Net40\bin\Release\Yort.DeadManSwitch*.dll" target="lib\net40" />
     <file src="Yort.DeadManSwitch.Net40\bin\Release\Yort.DeadManSwitch*.xml" target="lib\net40" />
     <file src="Yort.DeadManSwitch.Net40\bin\Release\Yort.DeadManSwitch*.pdb" target="lib\net40" />
+
+    <file src="Yort.DeadManSwitch.NetStandard12\bin\Release\netstandard1.2\Yort.DeadManSwitch*.dll" target="lib\netstandard12" />
+    <file src="Yort.DeadManSwitch.NetStandard12\bin\Release\netstandard1.2\Yort.DeadManSwitch*.xml" target="lib\netstandard12" />
+    <file src="Yort.DeadManSwitch.NetStandard12\bin\Release\netstandard1.2\Yort.DeadManSwitch*.pdb" target="lib\netstandard12" />
+
     <file src="Yort.DeadManSwitch.NetStandard20\bin\Release\netstandard2.0\Yort.DeadManSwitch*.dll" target="lib\netstandard20" />
     <file src="Yort.DeadManSwitch.NetStandard20\bin\Release\netstandard2.0\Yort.DeadManSwitch*.xml" target="lib\netstandard20" />
     <file src="Yort.DeadManSwitch.NetStandard20\bin\Release\netstandard2.0\Yort.DeadManSwitch*.pdb" target="lib\netstandard20" />

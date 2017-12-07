@@ -17,6 +17,7 @@ Any time you want to take some action because something else hasn't happened for
 ## Supported Platforms
 Currently;
 
+* .Net Standard 1.2
 * .Net Standard 2.0 
 * .Net 4.0+
 
