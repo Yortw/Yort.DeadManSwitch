@@ -38,6 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ladon, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ladon.Net.1.0.2\lib\net40\Ladon.dll</HintPath>
+    </Reference>
     <Reference Include="Ladon.NetStandard10">
       <HintPath>..\packages\Ladon.Net.1.0.1\lib\netstandard1.0\Ladon.NetStandard10.dll</HintPath>
     </Reference>
@@ -49,8 +52,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="Yort.Trashy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Yort.Trashy.1.0.0\lib\net40\Yort.Trashy.dll</HintPath>
+    <Reference Include="Yort.Trashy, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Yort.Trashy.1.0.2\lib\net40\Yort.Trashy.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -36,8 +36,8 @@
     <CodeAnalysisRuleSet>..\YortDeadManSwitchCodeAnalysis.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ladon.Net40, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ladon.Net.1.0.1\lib\net40\Ladon.Net40.dll</HintPath>
+    <Reference Include="Ladon, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ladon.Net.1.0.2\lib\net40\Ladon.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,8 +46,8 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Yort.Trashy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Yort.Trashy.1.0.0\lib\net40\Yort.Trashy.dll</HintPath>
+    <Reference Include="Yort.Trashy, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Yort.Trashy.1.0.2\lib\net40\Yort.Trashy.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

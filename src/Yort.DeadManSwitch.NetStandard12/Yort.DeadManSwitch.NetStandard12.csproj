@@ -9,8 +9,8 @@
   <Import Project="..\Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="Ladon.Net" Version="1.0.1" />
-    <PackageReference Include="Yort.Trashy" Version="1.0.0" />
+    <PackageReference Include="Ladon.Net" Version="1.0.2" />
+    <PackageReference Include="Yort.Trashy" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
