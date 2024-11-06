@@ -138,9 +138,14 @@ namespace Yort.Dms
 					_ActivatedCallback.Invoke();
 				}
 			}
+			catch (ObjectDisposedException)
+			{
+				if (this.IsDisposed) return; //Ignore race conditon if disposed during activated callback.
+			}
+
 			finally
 			{
-				if (_AutoReset)
+				if (_AutoReset && !IsDisposed)
 					Reset(DeadManSwitchResetReason.AutoReset);
 			}
 		}
