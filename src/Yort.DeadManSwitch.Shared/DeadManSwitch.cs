@@ -2,6 +2,7 @@
 using Ladon;
 using Yort.Trashy.Extensions;
 using Yort.Trashy;
+using System.Xml.Linq;
 
 namespace Yort.Dms
 {
@@ -106,6 +107,11 @@ namespace Yort.Dms
 			Reset(DeadManSwitchResetReason.ManualReset);
 		}
 
+		public void Disarm()
+		{
+			Reset(DeadManSwitchResetReason.Disarm);
+		}
+
 		#endregion
 
 		#region Private Members
@@ -118,7 +124,7 @@ namespace Yort.Dms
 		{
 			using (var busyToken = base.ObtainBusyToken())
 			{
-				_SwitchTimer.Change(_DelayMilliseconds, System.Threading.Timeout.Infinite);
+				_SwitchTimer.Change(reason == DeadManSwitchResetReason.Disarm ? System.Threading.Timeout.Infinite : _DelayMilliseconds, System.Threading.Timeout.Infinite);
 			}
 
 			//Actions taken on reset may be slow, should not stop timer from being reset if the event occurs again.
