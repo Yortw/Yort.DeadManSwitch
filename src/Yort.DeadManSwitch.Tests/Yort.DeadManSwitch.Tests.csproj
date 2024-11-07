@@ -11,7 +11,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Yort.Dms.Tests</RootNamespace>
-    <AssemblyName>Yort.DeadManSwitch.NetStandard20.Tests</AssemblyName>
+    <AssemblyName>Yort.DeadManSwitch.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -116,6 +116,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivatationTests.cs" />
+    <Compile Include="AutoResetTests.cs" />
+    <Compile Include="BehaviourTests.cs" />
+    <Compile Include="ConstructorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -123,14 +127,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Yort.DeadManSwitch.NetStandard20\Yort.DeadManSwitch.NetStandard20.csproj">
-      <Project>{f774ae09-f1af-49de-b4fa-f71ede5b0f28}</Project>
-      <Name>Yort.DeadManSwitch.NetStandard20</Name>
+    <ProjectReference Include="..\Yort.DeadManSwitch\Yort.DeadManSwitch.csproj">
+      <Project>{672d1291-469a-4abc-bc44-2f2f43d8900b}</Project>
+      <Name>Yort.DeadManSwitch</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\Yort.DeadManSwitch.Shared.Tests\Yort.DeadManSwitch.Shared.Tests.projitems" Label="Shared" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
