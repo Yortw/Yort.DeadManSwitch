@@ -76,5 +76,23 @@ namespace Yort.Dms.Shared.Tests
 			Assert.AreEqual(false, activated, "Switch activated after it was disposed.");
 		}
 
+		[TestMethod]
+		public async Task DeadManSwitch_DoesNotFireWhenDisarmed()
+		{
+			var delay = 250;
+			bool activated = false;
+			using (var dms = new DeadManSwitch(TimeSpan.FromMilliseconds(delay), () => activated = true, false))
+			{
+				dms.Disarm();
+
+				await Task.Delay(delay * 2);
+				Assert.AreEqual(false, activated, "Switch was incorrectly activated prior to interval elapsing.");
+			}
+
+			await Task.Delay(270);
+
+			Assert.AreEqual(false, activated, "Switch activated after it was disposed.");
+		}
+
 	}
 }
