@@ -46,8 +46,8 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Yort.Trashy, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Yort.Trashy.1.0.2\lib\net40\Yort.Trashy.dll</HintPath>
+    <Reference Include="Yort.Trashy, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Yort.Trashy.1.0.4\lib\net40\Yort.Trashy.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

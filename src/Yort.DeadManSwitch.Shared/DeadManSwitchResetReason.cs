@@ -20,6 +20,13 @@ namespace Yort.Dms
 		/// <summary>
 		/// The switch automatically reset itself after activation.
 		/// </summary>
-		AutoReset
+		AutoReset,
+		/// <summary>
+		/// The switch was disarmed using the <see cref="DeadManSwitch.Disarm"/> method,
+		/// </summary>
+		/// <remarks>
+		/// When a switch is disarmed it is inactive but not disposed. It can be re-activated by calling the <see cref="DeadManSwitch.Reset()"/> method, but until/unless that happens it will not fire the callback event again.
+		/// </remarks>
+		Disarm
 	}
 }
