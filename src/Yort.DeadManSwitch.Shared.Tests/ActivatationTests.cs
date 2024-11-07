@@ -13,17 +13,18 @@ namespace Yort.Dms.Shared.Tests
 		[TestMethod]
 		public async Task DeadManSwitch_FiresWhenNotReset()
 		{
+			var delay = 250;
 			bool activated = false;
-			using (var dms = new DeadManSwitch(TimeSpan.FromMilliseconds(250), () => activated = true, false))
+			using (var dms = new DeadManSwitch(TimeSpan.FromMilliseconds(delay), () => activated = true, false))
 			{
 				for (int cnt = 0; cnt < 10; cnt++)
 				{
-					await Task.Delay(100);
+					await Task.Delay(delay / 10);
 					dms.Reset();
 				}
 				Assert.AreEqual(false, activated, "Switch was incorrectly activated prior to interval elapsing.");
 
-				await Task.Delay(270);
+				await Task.Delay(delay * 2);
 
 				Assert.AreEqual(true, activated, "Switch not activated after specified interval.");
 			}
