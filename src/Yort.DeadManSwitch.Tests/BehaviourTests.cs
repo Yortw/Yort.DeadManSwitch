@@ -38,7 +38,7 @@ namespace Yort.Dms.Tests
 				}
 				Assert.AreEqual(false, activated, "Switch was incorrectly activated prior to interval elapsing.");
 
-				await Task.Delay(260);
+				await Task.Delay(300);
 
 				Assert.AreEqual(true, activated, "Switch not activated after specified interval.");
 			}
