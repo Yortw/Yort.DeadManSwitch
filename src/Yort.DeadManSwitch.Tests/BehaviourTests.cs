@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Yort.Dms.Shared.Tests
+namespace Yort.Dms.Tests
 {
 	[TestClass]
 	public class BehaviourTests
