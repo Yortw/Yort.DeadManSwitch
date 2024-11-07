@@ -3,19 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yort.DeadManSwitch.NetStandard20", "Yort.DeadManSwitch.NetStandard20\Yort.DeadManSwitch.NetStandard20.csproj", "{F774AE09-F1AF-49DE-B4FA-F71EDE5B0F28}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yort.DeadManSwitch.Net40", "Yort.DeadManSwitch.Net40\Yort.DeadManSwitch.Net40.csproj", "{1ABBB268-03C0-4833-83B4-76F0D6FFB096}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Yort.DeadManSwitch.Shared", "Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.shproj", "{ABE4E554-5094-48A2-BBA8-C0AFB9434CCE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yort.DeadManSwitch.NetStandard20.Tests", "Yort.DeadManSwitch.NetStandard20.Tests\Yort.DeadManSwitch.NetStandard20.Tests.csproj", "{1DBBCA83-24B0-4330-98E0-915B99B09EF9}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Yort.DeadManSwitch.Shared.Tests", "Yort.DeadManSwitch.Shared.Tests\Yort.DeadManSwitch.Shared.Tests.shproj", "{9B50C5EA-B07E-4DFA-BC89-C6B10AD86F5E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yort.DeadManSwitch.Demo", "Yort.DeadManSwitch.Demo\Yort.DeadManSwitch.Demo.csproj", "{F3CC56E3-29C7-42C7-8601-84E643EC84D9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yort.DeadManSwitch.NetStandard12", "Yort.DeadManSwitch.NetStandard12\Yort.DeadManSwitch.NetStandard12.csproj", "{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yort.DeadManSwitch", "Yort.DeadManSwitch\Yort.DeadManSwitch.csproj", "{672D1291-469A-4ABC-BC44-2F2F43D8900B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yort.DeadManSwitch.Tests", "Yort.DeadManSwitch.Tests\Yort.DeadManSwitch.Tests.csproj", "{1DBBCA83-24B0-4330-98E0-915B99B09EF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,39 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F774AE09-F1AF-49DE-B4FA-F71EDE5B0F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F774AE09-F1AF-49DE-B4FA-F71EDE5B0F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F774AE09-F1AF-49DE-B4FA-F71EDE5B0F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F774AE09-F1AF-49DE-B4FA-F71EDE5B0F28}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1ABBB268-03C0-4833-83B4-76F0D6FFB096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1ABBB268-03C0-4833-83B4-76F0D6FFB096}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1ABBB268-03C0-4833-83B4-76F0D6FFB096}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1ABBB268-03C0-4833-83B4-76F0D6FFB096}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DBBCA83-24B0-4330-98E0-915B99B09EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DBBCA83-24B0-4330-98E0-915B99B09EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DBBCA83-24B0-4330-98E0-915B99B09EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DBBCA83-24B0-4330-98E0-915B99B09EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3CC56E3-29C7-42C7-8601-84E643EC84D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3CC56E3-29C7-42C7-8601-84E643EC84D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3CC56E3-29C7-42C7-8601-84E643EC84D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3CC56E3-29C7-42C7-8601-84E643EC84D9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672D1291-469A-4ABC-BC44-2F2F43D8900B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672D1291-469A-4ABC-BC44-2F2F43D8900B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672D1291-469A-4ABC-BC44-2F2F43D8900B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672D1291-469A-4ABC-BC44-2F2F43D8900B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBBCA83-24B0-4330-98E0-915B99B09EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBBCA83-24B0-4330-98E0-915B99B09EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBBCA83-24B0-4330-98E0-915B99B09EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBBCA83-24B0-4330-98E0-915B99B09EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9A9B096-A573-4C43-B7CE-53DA58FEC4C8}
-	EndGlobalSection
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems*{1abbb268-03c0-4833-83b4-76f0d6ffb096}*SharedItemsImports = 4
-		Yort.DeadManSwitch.Shared.Tests\Yort.DeadManSwitch.Shared.Tests.projitems*{1dbbca83-24b0-4330-98e0-915b99b09ef9}*SharedItemsImports = 4
-		Yort.DeadManSwitch.Shared.Tests\Yort.DeadManSwitch.Shared.Tests.projitems*{9b50c5ea-b07e-4dfa-bc89-c6b10ad86f5e}*SharedItemsImports = 13
-		Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems*{abe4e554-5094-48a2-bba8-c0afb9434cce}*SharedItemsImports = 13
-		Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems*{d1d39425-fbb9-4311-9c5e-811f5d2f2c87}*SharedItemsImports = 5
-		Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems*{f774ae09-f1af-49de-b4fa-f71ede5b0f28}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

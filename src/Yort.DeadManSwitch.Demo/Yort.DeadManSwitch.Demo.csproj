@@ -53,9 +53,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Yort.DeadManSwitch.Net40\Yort.DeadManSwitch.Net40.csproj">
-      <Project>{1abbb268-03c0-4833-83b4-76f0d6ffb096}</Project>
-      <Name>Yort.DeadManSwitch.Net40</Name>
+    <ProjectReference Include="..\Yort.DeadManSwitch\Yort.DeadManSwitch.csproj">
+      <Project>{672d1291-469a-4abc-bc44-2f2f43d8900b}</Project>
+      <Name>Yort.DeadManSwitch</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

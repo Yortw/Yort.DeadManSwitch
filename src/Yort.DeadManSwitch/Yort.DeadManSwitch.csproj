@@ -1,0 +1,51 @@
+<Project Sdk="MSBuild.Sdk.Extras/3.0.44">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net40;netstandard1.2</TargetFrameworks>
+    <RootNamespace>Yort.Dms</RootNamespace>
+    <PackageId>Yort.DeadManSwitch</PackageId>
+    <Authors>Yortw</Authors>
+    <Company />
+    <Product>Yort.DeadManSwitch</Product>
+    <Description>A common dead man switch pattern implementation for handling cases when an event fails to happen for a certain period of time.</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+	<PropertyGroup>
+		<Title>Yort.DeadManSwitch</Title>
+		<Version>$(VersionPrefix)1.0.3</Version>
+		<Copyright>Copyright © 2018</Copyright>
+		<PackageProjectUrl>https://github.com/Yortw/Yort.DeadManSwitch</PackageProjectUrl>
+		<PackageIcon>Icon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/Yortw/Yort.DeadManSwitch.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>deadmanswitch deadman switch netstandard20 net40 .net4</PackageTags>
+		<PackageReleaseNotes>* Fixed a race condition on dispose which could cause an uncatchable ObjectDisposedException
+* Added a Disarm method to disable/pause the trigger</PackageReleaseNotes>
+		<IncludeSymbols>True</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+		<EnableNETAnalyzers>True</EnableNETAnalyzers>
+		<AnalysisLevel>latest</AnalysisLevel>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ladon.Net" Version="1.0.2" />
+    <PackageReference Include="Yort.Trashy" Version="1.0.4" />
+  </ItemGroup>
+</Project>

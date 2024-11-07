@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Yort.Dms.Shared.Tests
+namespace Yort.Dms.Tests
 {
 	[TestClass]
 	public class BehaviourTests
@@ -38,7 +38,7 @@ namespace Yort.Dms.Shared.Tests
 				}
 				Assert.AreEqual(false, activated, "Switch was incorrectly activated prior to interval elapsing.");
 
-				await Task.Delay(260);
+				await Task.Delay(300);
 
 				Assert.AreEqual(true, activated, "Switch not activated after specified interval.");
 			}

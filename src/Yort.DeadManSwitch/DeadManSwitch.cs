@@ -18,7 +18,6 @@ namespace Yort.Dms
 	/// <para>If auto-reset is enabled (via the constructor) then after activation callback completes the switch will call <see cref="Reset(DeadManSwitchResetReason)"/> itself (providing <see cref="DeadManSwitchResetReason.AutoReset"/> as the reason). If auto reset is not enabled the switch will not be reset (and will not activate again), unless <see cref="Reset()"/> is subsequently called.</para>
 	/// <para>Calls to the activated callback will likely be made on a background thread. Any callback code that requires thread affinity will need to perform it's own dispatch/invoke.</para>
 	/// </remarks>
-	[CLSCompliant(true)]
 	public sealed class DeadManSwitch : Yort.Trashy.DisposableManagedOnlyBase
 	{
 
@@ -107,6 +106,9 @@ namespace Yort.Dms
 			Reset(DeadManSwitchResetReason.ManualReset);
 		}
 
+		/// <summary>
+		/// Disables the switch so it will not activate again, without disposing it. The switch can be rearmed by calling <see cref="Reset()"/>.
+		/// </summary>
 		public void Disarm()
 		{
 			Reset(DeadManSwitchResetReason.Disarm);
