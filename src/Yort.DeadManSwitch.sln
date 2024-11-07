@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yort.DeadManSwitch.NetStandard20", "Yort.DeadManSwitch.NetStandard20\Yort.DeadManSwitch.NetStandard20.csproj", "{F774AE09-F1AF-49DE-B4FA-F71EDE5B0F28}"
 EndProject
@@ -17,16 +17,9 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Yort.DeadManSwitch.Shared.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yort.DeadManSwitch.Demo", "Yort.DeadManSwitch.Demo\Yort.DeadManSwitch.Demo.csproj", "{F3CC56E3-29C7-42C7-8601-84E643EC84D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yort.DeadManSwitch.NetStandard12", "Yort.DeadManSwitch.NetStandard12\Yort.DeadManSwitch.NetStandard12.csproj", "{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yort.DeadManSwitch.NetStandard12", "Yort.DeadManSwitch.NetStandard12\Yort.DeadManSwitch.NetStandard12.csproj", "{D1D39425-FBB9-4311-9C5E-811F5D2F2C87}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems*{1abbb268-03c0-4833-83b4-76f0d6ffb096}*SharedItemsImports = 4
-		Yort.DeadManSwitch.Shared.Tests\Yort.DeadManSwitch.Shared.Tests.projitems*{1dbbca83-24b0-4330-98e0-915b99b09ef9}*SharedItemsImports = 4
-		Yort.DeadManSwitch.Shared.Tests\Yort.DeadManSwitch.Shared.Tests.projitems*{60c3b1d6-32d9-4f39-ae30-bc5ec026de59}*SharedItemsImports = 4
-		Yort.DeadManSwitch.Shared.Tests\Yort.DeadManSwitch.Shared.Tests.projitems*{9b50c5ea-b07e-4dfa-bc89-c6b10ad86f5e}*SharedItemsImports = 13
-		Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems*{abe4e554-5094-48a2-bba8-c0afb9434cce}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -62,5 +55,13 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9A9B096-A573-4C43-B7CE-53DA58FEC4C8}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems*{1abbb268-03c0-4833-83b4-76f0d6ffb096}*SharedItemsImports = 4
+		Yort.DeadManSwitch.Shared.Tests\Yort.DeadManSwitch.Shared.Tests.projitems*{60c3b1d6-32d9-4f39-ae30-bc5ec026de59}*SharedItemsImports = 4
+		Yort.DeadManSwitch.Shared.Tests\Yort.DeadManSwitch.Shared.Tests.projitems*{9b50c5ea-b07e-4dfa-bc89-c6b10ad86f5e}*SharedItemsImports = 13
+		Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems*{abe4e554-5094-48a2-bba8-c0afb9434cce}*SharedItemsImports = 13
+		Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems*{d1d39425-fbb9-4311-9c5e-811f5d2f2c87}*SharedItemsImports = 5
+		Yort.DeadManSwitch.Shared\Yort.DeadManSwitch.Shared.projitems*{f774ae09-f1af-49de-b4fa-f71ede5b0f28}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
