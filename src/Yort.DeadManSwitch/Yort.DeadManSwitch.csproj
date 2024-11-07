@@ -25,7 +25,7 @@
 
 	<PropertyGroup>
 		<Title>Yort.DeadManSwitch</Title>
-		<Version>$(VersionPrefix)1.0.3-beta</Version>
+		<Version>$(VersionPrefix)1.0.3</Version>
 		<Copyright>Copyright © 2018</Copyright>
 		<PackageProjectUrl>https://github.com/Yortw/Yort.DeadManSwitch</PackageProjectUrl>
 		<PackageIcon>Icon.png</PackageIcon>
